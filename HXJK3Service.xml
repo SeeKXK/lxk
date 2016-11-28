@@ -4804,7 +4804,7 @@ root(Array)|--&lt;font color=red&gt;Id(string)：&lt;/font&gt;待处理数据在
     </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="K3Cloud">
-    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RMS系统与K3Cloud集成时，可以通过此服务总线进行关联单据及基础数据的自动传输！</wsdl:documentation>
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">RMS系统与K3Cloud！</wsdl:documentation>
     <wsdl:port name="K3CloudSoap" binding="tns:K3CloudSoap">
       <soap:address location="http://10.10.0.100/K3Cloud/Services/HXJK3Service.asmx" />
     </wsdl:port>
